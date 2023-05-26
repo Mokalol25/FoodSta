@@ -1,2 +1,14 @@
 @import './common';
-@import './example';
+// @import './example';
+@import './base/reset';
+@import './base/common';
+@import './utils/placeholder';
+@import './utils/var';
+@import './utils/mixin';
+@import './main/header';
+@import './main/hero';
+@import './main/offerings';
+@import './main/favourites';
+@import './main/castomers-say';
+@import './main/subscribe';
+@import './main/footer';
