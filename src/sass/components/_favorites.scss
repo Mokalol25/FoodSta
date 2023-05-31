@@ -33,7 +33,12 @@
     background: local;
     border: 16px solid #FFE550;
     border-radius: 197.5px;
-    box-sizing: border-box;
-    padding: 40px;
+    padding: 20px 21px;
+    transition: border 250ms cubic-bezier(0.39, 0.575, 0.565, 1) 25ms;
+    cursor: pointer;
+    &:hover {
+      border: 14px solid #BBF330;
+      border-radius: 167.59px;
+    }
   }
 }
