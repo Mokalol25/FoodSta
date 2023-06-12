@@ -30,10 +30,13 @@
   &__img {
     width: 315px;
     height: 315px;
-    background: local;
     border: 16px solid #FFE550;
     border-radius: 197.5px;
-    box-sizing: border-box;
-    padding: 40px;
+    padding: 20px;
+    transition: border 250ms cubic-bezier(0.39, 0.575, 0.565, 1) 50ms;
+    cursor: pointer;
+    &:hover {
+      border: 16px solid #BBF330;
+    }
   }
 }
