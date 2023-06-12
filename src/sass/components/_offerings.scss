@@ -39,6 +39,9 @@
   color: #2c2c2c;
   margin-left: 10px;
   @media screen and (min-width: 768px) {
+    font-size: 42px;
+    line-height: 1.2;
+    width: 526px;
   }
   @media screen and (min-width: 1280px) {
     padding-top: 180px;
@@ -47,13 +50,15 @@
   }
 }
 .offerings__description {
-  margin-top: 28px;
   font-weight: 400;
   font-size: 14px;
   margin-left: 10px;
+  margin-top: 28px;
   line-height: 1.2;
   color: #2c2c2c;
   @media screen and (min-width: 768px) {
+    font-size: 20px;
+    margin-top: 20px;
   }
   @media screen and (min-width: 1280px) {
     font-size: 16px;
@@ -83,9 +88,10 @@
   margin-left: 10px;
   @media screen and (min-width: 768px) {
     display: flex;
+    gap: 116px;
+    margin-top: 40px;
   }
   @media screen and (min-width: 1280px) {
-    margin-top: 40px;
     gap: 67px;
   }
 }
@@ -94,7 +100,7 @@
   &:last-child {
     margin-top: 28px;
   }
-  @media screen and (min-width: 1280px) {
+  @media screen and (min-width: 768px) {
     &:last-child {
       margin-top: 0;
     }
@@ -117,11 +123,9 @@
   line-height: 1.5;
   color: #2c2c2c;
   margin-top: 16px;
-  min-width: 252px;
-  @media screen and (min-width: 768px) {
-  }
+  width: 252px;
   @media screen and (min-width: 1280px) {
-    min-width: 253px;
+    width: 253px;
   }
 }
 .offerings__button {
@@ -151,14 +155,44 @@
   @media screen and (min-width: 768px) {
     width: 257.04px;
     height: 325.84px;
-    margin-left: 85.8px;
-    margin-top: 150px;
+    margin-left: 35px;
+    margin-top: -50px;
   }
   @media screen and (min-width: 1280px) {
     width: 396px;
     height: 502px;
     margin-left: 60px;
     margin-top: -70px;
+  }
+}
+.offerings__apple-list {
+  display: flex;
+  justify-content: center;
+}
+.offerings__big-inv-apple {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+    width: 168px;
+    height: 210.42px;
+    margin-left: 29px;
+    margin-top: 205px;
+  }
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
+}
+.offerings__small-inv-apple {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+    width: 108px;
+    height: 136px;
+    margin-left: 44px;
+    margin-top: 280px;
+  }
+  @media screen and (min-width: 1280px) {
+    display: none;
   }
 }
 .offerings__img-shadow {
@@ -177,6 +211,8 @@
   @media screen and (min-width: 768px) {
     width: 163.57px;
     height: 56.47px;
+    margin-left: 80px;
+    margin-top: 250px;
   }
   @media screen and (min-width: 1280px) {
     width: 252px;
@@ -212,8 +248,8 @@
   @media screen and (min-width: 768px) {
     width: 357px;
     height: 357px;
-    margin-top: 187px;
-    margin-left: 32px;
+    margin-top: 120px;
+    margin-left: 10px;
   }
   @media screen and (min-width: 1280px) {
     width: 550px;
