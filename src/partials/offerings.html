@@ -1,39 +1,57 @@
 <section class="offerings">
   <div class="container">
     <div class="offerings__box">
-      <div class="offerings__img-border">
-        <div class="offerings__img-background">
-          <picture>
-            <source
-              srcset="
-                ./images/offerings/apple-offerings-mobile@1x.webp 1x,
-                ./images/offerings/apple-offerings-mobile@2x.webp 2x
-              "
-              media="(min-width: 480px)"
-            />
-            <source
-              srcset="
-                ./images/offerings/apple-offerings-tablet@1x.webp 1x,
-                ./images/offerings/apple-offerings-tablet@2x.webp 2x
-              "
-              media="(min-width: 768px)"
-            />
-            <source
-              srcset="
-                ./images/offerings/apple-offerings-desctop@1x.webp 1x,
-                ./images/offerings/apple-offerings-desctop@2x.webp 2x
-              "
-              media="(min-width: 1200px)"
-            />
-            <img
-              src="./images/offerings/apple-offerings-desctop@1x.webp"
-              alt=""
-              class="offerings__img"
-            />
-          </picture>
-          <div class="offerings__img-shadow"></div>
-        </div>
-      </div>
+      <ul class="offerings__apple-list">
+        <li class="offerings__apple-item">
+          <div class="offerings__img-border">
+            <div class="offerings__img-background">
+              <picture>
+                <source
+                  srcset="
+                    ./images/offerings/apple-offerings-mobile@1x.webp 1x,
+                    ./images/offerings/apple-offerings-mobile@2x.webp 2x
+                  "
+                  media="(min-width: 480px)"
+                />
+                <source
+                  srcset="
+                    ./images/offerings/apple-offerings-tablet@1x.webp 1x,
+                    ./images/offerings/apple-offerings-tablet@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/offerings/apple-offerings-desctop@1x.webp 1x,
+                    ./images/offerings/apple-offerings-desctop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/offerings/apple-offerings-desctop@1x.webp"
+                  alt=""
+                  class="offerings__img"
+                />
+              </picture>
+              <div class="offerings__img-shadow"></div>
+            </div>
+          </div>
+        </li>
+        <li class="offerings__apple-item">
+          <img
+            class="offerings__big-inv-apple"
+            src="./images/offerings/offerings-big-inv-apple-tablet.png"
+            alt=""
+          />
+        </li>
+        <li class="offerings__apple-item">
+          <img
+            class="offerings__small-inv-apple"
+            src="./images/offerings/offerings-small-inv-apple-tablet.png"
+            alt=""
+          />
+        </li>
+      </ul>
       <div>
         <h2 class="offerings__title">What’s Special About Our Offerings</h2>
         <p class="offerings__description">
@@ -76,7 +94,10 @@
             </p>
           </li>
         </ul>
-        <button class="offerings__button">Order Now</button>
+        <div class="offerings__min-box">
+          <button class="offerings__button">Order Now</button>
+          <p class="offerings__more">Read more ></p>
+        </div>
       </div>
     </div>
   </div>

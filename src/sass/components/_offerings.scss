@@ -2,12 +2,14 @@
   background-image: url(../images/offerings/offerings-background-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   margin-bottom: 100px;
   @media screen and (min-width: 768px) {
     // width: 768px;
     height: 1140px;
-    margin-top: -150px;
+    // margin-top: -150px;
     background-image: url(../images/offerings/offerings-backround-tablet.png);
+    background-position: left;
   }
   @media screen and (min-width: 1280px) {
     // width: 1280px;
@@ -16,25 +18,53 @@
   }
 }
 .offerings__box {
-  display: flex;
-  gap: 90px;
-  @media screen and (max-width: 1279px) {
-    display: block;
+  display: block;
+  padding-top: 70.02px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    padding-top: 70.02px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    gap: 90px;
   }
 }
 .offerings__title {
-  padding-top: 260px;
+  margin-top: 60px;
   font-weight: 700;
-  font-size: 42px;
+  font-size: 28px;
   line-height: 1.2;
   color: #2c2c2c;
+  margin-left: 10px;
+  @media screen and (min-width: 768px) {
+    font-size: 42px;
+    line-height: 1.2;
+    width: 526px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-top: 180px;
+    font-size: 42px;
+    line-height: 1.2;
+  }
 }
 .offerings__description {
-  margin-top: 20px;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 28px;
+  line-height: 1.2;
   color: #2c2c2c;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+  }
 }
 .offerings__svg-1 {
   fill: #7eb101;
@@ -54,47 +84,116 @@
 }
 
 .offerings__list {
-  display: flex;
-  margin-top: 40px;
-  gap: 67px;
+  margin-top: 28px;
+  margin-left: 10px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 116px;
+    margin-top: 40px;
+  }
+  @media screen and (min-width: 1280px) {
+    gap: 67px;
+  }
 }
 .offerings__item {
   width: 253px;
+  &:last-child {
+    margin-top: 28px;
+  }
+  @media screen and (min-width: 768px) {
+    &:last-child {
+      margin-top: 0;
+    }
+  }
 }
 .offerings__item-title {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 1.4;
   color: #2c2c2c;
   margin-top: 8px;
+  line-height: 1.2;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+    line-height: 1.4;
+  }
 }
 .offerings__item-description {
   font-weight: 400;
-  font-style: 14px;
+  font-size: 14px;
   line-height: 1.5;
   color: #2c2c2c;
   margin-top: 16px;
-  min-width: 253px;
+  width: 252px;
+  @media screen and (min-width: 1280px) {
+    width: 253px;
+  }
 }
 .offerings__button {
-  margin-top: 32px;
+  margin-top: 28px;
   width: 106px;
   height: 40px;
   background-color: #fff;
   border: 2px #7eb101 solid;
   border-radius: 30px;
   font-weight: 500;
-  font-style: 13px;
+  font-size: 13px;
   line-height: 1.5;
   color: #2c2c2c;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+    margin-top: 32px;
+  }
 }
 .offerings__img {
   position: absolute;
-  width: 396px;
-  height: 502px;
-  margin-left: 60px;
-  margin-top: -70px;
+  width: 201.6px;
+  height: 255.55px;
   z-index: 1;
+  margin-left: 27px;
+  margin-top: -40px;
+  @media screen and (min-width: 768px) {
+    width: 257.04px;
+    height: 325.84px;
+    margin-left: 35px;
+    margin-top: -50px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 396px;
+    height: 502px;
+    margin-left: 60px;
+    margin-top: -70px;
+  }
+}
+.offerings__apple-list {
+  display: flex;
+  justify-content: center;
+}
+.offerings__big-inv-apple {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+    width: 168px;
+    height: 210.42px;
+    margin-left: 29px;
+    margin-top: 205px;
+  }
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
+}
+.offerings__small-inv-apple {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+    width: 108px;
+    height: 136px;
+    margin-left: 44px;
+    margin-top: 280px;
+  }
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
 }
 .offerings__img-shadow {
   position: absolute;
@@ -104,33 +203,71 @@
     rgba(105, 105, 105, 0) 100%
   );
   filter: blur(13px);
-  width: 252px;
-  height: 87px;
-  margin-top: 380px;
-  margin-left: 130px;
+  width: 128.29px;
+  height: 44.29px;
+  margin-top: 190px;
+  margin-left: 60px;
   z-index: 0;
+  @media screen and (min-width: 768px) {
+    width: 163.57px;
+    height: 56.47px;
+    margin-left: 80px;
+    margin-top: 250px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 252px;
+    height: 87px;
+    margin-top: 380px;
+    margin-left: 130px;
+  }
 }
 .offerings__img-background {
   position: relative;
-  margin: 20px;
+  margin: 8.22px;
   background-color: #fefefe;
-  width: 502px;
-  height: 502px;
+  width: 255.56px;
+  height: 255.56px;
   border-radius: 50%;
   @media screen and (min-width: 768px) {
     width: 325.84px;
     height: 325.84px;
+    margin: 11.58px;
   }
   @media screen and (min-width: 1280px) {
     width: 502px;
     height: 502px;
+    margin: 20px;
   }
 }
 .offerings__img-border {
-  margin-top: 231px;
-  margin-left: 16px;
   border: 5px #fff solid;
   border-radius: 50%;
-  width: 550px;
-  height: 550px;
+  width: 280px;
+  height: 279.98px;
+  margin-left: 5px;
+  @media screen and (min-width: 768px) {
+    width: 357px;
+    height: 357px;
+    margin-top: 120px;
+    margin-left: 10px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 550px;
+    height: 550px;
+    margin-top: 231px;
+    margin-left: -40px;
+  }
+}
+.offerings__min-box {
+  display: flex;
+  gap: 23.96px;
+}
+.offerings__more {
+  font-weight: 400;
+  font-size: 13.67px;
+  line-height: 1.5;
+  margin-top: 38px;
+  @media screen and (min-width: 1280px) {
+    display: none;
+  }
 }
