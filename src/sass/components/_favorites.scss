@@ -1,16 +1,19 @@
 .favorites {
-  background-color: #FEFEFE;
+  background-color: $header-and-footer-background;
+  ;
   display: flex;
+
   &__title {
-    color: #2C2C2C;
+    color: $main-text-color;
     font-weight: 700;
     font-size: 42px;
     line-height: 49px;
     text-align: center;
     margin-bottom: 20px;
   }
+
   &__text {
-    color: #2C2C2C;
+    color: $main-text-color;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -19,24 +22,31 @@
 }
 
 .favorites-list {
-  display: flex;
+  // display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  // justify-content: center;
+
+  @extend %flex-center;
+
+
   margin-top: 40px;
+
   &__item {
     margin-left: 32px;
     margin-bottom: 32px;
   }
+
   &__image {
     width: 315px;
     height: 315px;
-    border: 16px solid #FFE550;
+    border: 16px solid $main-border-and-elemets-color;
     border-radius: 197.5px;
     padding: 20px;
     transition: border 250ms cubic-bezier(0.39, 0.575, 0.565, 1) 50ms;
     cursor: pointer;
+
     &:hover {
-      border: 16px solid #BBF330;
+      border: 16px solid $main-btn-color;
     }
   }
 }

@@ -1,0 +1,26 @@
+%flex {
+    display: flex;
+    align-items: center;
+}
+
+%flex-center-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+%flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+
+// @extend %flex-center;
+// @extend %flex-space-between;
+// @extend %flex-center-wrap;
+// @extend %flex;
