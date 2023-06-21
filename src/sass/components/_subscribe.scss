@@ -1,14 +1,15 @@
 .subscribe {
     margin-top: -50px;
-    padding-bottom: 64px;
+    padding-bottom: 160px;
     position: relative;
 
     @media screen and (min-width: 768px) {
-       
+       padding-bottom: 250px;
     }
 
     @media screen and (min-width: 1280px) {
         margin-top: -90px;
+        padding-bottom: 64px;
     }
     &__title {
         color: #2C2C2C;
