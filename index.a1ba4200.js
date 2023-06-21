@@ -1,0 +1,2 @@
+(()=>{const e={openModalBtn:document.querySelector("[data-open-hero-modal]"),closeModalBtn:document.querySelector("[data-close-hero-modal]"),backdrop:document.querySelector("[data-hero-backdrop]")};function o(){e.backdrop.classList.toggle("hero__is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o),e.backdrop.addEventListener("click",(function(){console.log("Це клік в бекдроп")}))})();
+//# sourceMappingURL=index.a1ba4200.js.map
