@@ -8,7 +8,9 @@
           varius enim in eros elementum tristique. Duis cursus, mi quis viverra
           ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
         </p>
-        <button class="hero__button">Order Now</button>
+        <button class="hero__button" type="button" data-open-hero-modal>
+          Order Now
+        </button>
       </div>
       <div class="hero__box-element">
         <picture>
@@ -33,6 +35,50 @@
           />
         </picture>
       </div>
+    </div>
+    <div class="hero__backdrop hero__is-hidden" data-hero-backdrop>
+      <form class="hero-modal">
+        <button
+          type="button"
+          class="hero-modal__close-button"
+          data-close-hero-modal
+        >
+          <svg class="hero-modal__svg">
+            <use href="./images/hero/hero-symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h3 class="hero-modal__title"></h3>
+        <ul class="hero-modal__list">
+          <li class="hero-modal__item">
+            <p class="hero-modal__description">Name</p>
+            <input
+              type="text"
+              id="name"
+              placeholder="Your name"
+              class="hero-modal__input"
+            />
+          </li>
+          <li class="hero-modal__item">
+            <p class="hero-modal__description">Phone number</p>
+            <input
+              type="text"
+              id="Phone"
+              placeholder="+38(0_ _) _ _ _   _ _   _ _"
+              class="hero-modal__input"
+            />
+          </li>
+          <li class="hero-modal__item">
+            <p class="hero-modal__description">E-mail</p>
+            <input
+              type="text"
+              id="e-mail"
+              placeholder="example@gmail.com"
+              class="hero-modal__input"
+            />
+          </li>
+        </ul>
+        <button type="button" class="hero-modal__send-button">Send</button>
+      </form>
     </div>
   </div>
 </section>
