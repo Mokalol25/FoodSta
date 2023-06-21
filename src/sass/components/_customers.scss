@@ -1,0 +1,129 @@
+.customers {
+    background-image: url(../images/customers/mobile-background.png);
+    // height: 769px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+    padding-top: 60px;
+    z-index: 2;
+
+    @media screen and (min-width: 768px) {
+        background-image: url(../images/customers/tablet-background.png);
+        height: 560px;
+        padding-top: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        background-image: url(../images/customers/desktop-background.png);
+        height: 647px;
+        padding-top: 100px;
+    }
+
+}
+
+.customers__title {
+    color: #2C2C2C;
+    font-weight: 700;
+    line-height: 49px;
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.customers__text {
+    color: #2C2C2C;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.customers__item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2C2C2C;
+    margin-bottom: 40px;
+}
+
+.customers__list {
+
+   @media screen and (min-width: 768px) {
+        display: flex;
+   }
+}
+
+.customers__item {
+    // position: relative;
+    background-color: #fefefe;
+    // width: 285px;
+    height: auto;
+    border-radius: 30px;
+    border-top-left-radius: 0;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 0;
+    margin-bottom: 24px;
+
+    @media screen and (min-width: 768px) {
+        margin-right: 32px;
+        width: 336px;
+        margin-bottom: 0;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        margin-right: 139px;
+        width: 501px;
+        margin-bottom: 0;
+    }
+}
+
+.customers__item:nth-child(2) {
+    margin-right: 0;
+}
+
+.customers__list-avatar {
+    display: flex;
+    align-items: center;
+    padding-bottom: 14px;
+}
+
+.customers__img {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+}
+
+// .customers__item-avatar {
+//     align-items: center;
+// }
+
+.customers__img-title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2C2C2C;
+    margin-bottom: 2px;
+}
+
+.customers__img-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2C2C2C;
+}
+
+.customers__svg-stars {
+    margin-top: 14px;
+    margin-bottom: 28px;
+    fill: #FFE550;
+}
+
+.customers__hr {
+    border: 1px solid #7EB101;
+    transform: rotate(90deg);
+    width: 46px;
+    height: 0;
+}
