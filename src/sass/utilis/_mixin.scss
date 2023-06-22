@@ -1,0 +1,16 @@
+@mixin button($width, $background-color, $width, $height) {
+    font-size: 13px;
+    color: #2c2c2c;
+    border-radius: 30px;
+    font-weight: 500;
+    line-height: 1.54;
+
+    width: $width;
+    background-color: $background-color;
+    height: $height;
+}
+
+@mixin display {
+    display: flex;
+    justify-content: space-between;
+}
