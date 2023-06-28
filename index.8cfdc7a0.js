@@ -1,0 +1,2 @@
+!function(){var e={openModalBtn:document.querySelector("[data-open-offerings-modal]"),closeModalBtn:document.querySelector("[data-close-offerings-modal]"),backdrop:document.querySelector("[data-offerings-backdrop]")};function o(){e.backdrop.classList.toggle("offerings__is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o),e.backdrop.addEventListener("click",(function(){console.log("Це клік в бекдроп")}))}();
+//# sourceMappingURL=index.8cfdc7a0.js.map
