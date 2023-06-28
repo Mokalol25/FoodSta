@@ -3,7 +3,9 @@
     // height: 769px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
+    
+
     padding-bottom: 50px;
     padding-top: 60px;
     z-index: 2;
@@ -25,27 +27,57 @@
 .customers__title {
     color: #2C2C2C;
     font-weight: 700;
-    line-height: 49px;
-    font-size: 42px;
+    line-height: 33px;
+    font-size: 28px;
     margin-bottom: 20px;
     text-align: left;
+
+    @media screen and (min-width: 768px) {
+        font-size: 42px;
+        line-height: 49px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 42px;
+        line-height: 49px;
+    }
 }
 
 .customers__text {
     color: #2C2C2C;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 16px;
     text-align: left;
     margin-bottom: 24px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 16px;
+        line-height: 19px;
+    }
 }
 
 .customers__item-title {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 19px;
     color: #2C2C2C;
     margin-bottom: 40px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 18px;
+        line-height: 21px;
+    }
 }
 
 .customers__list {
