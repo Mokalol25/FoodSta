@@ -1,0 +1,2 @@
+(()=>{const e={openModalBtn:document.querySelector("[data-open-header-modal]"),closeModalBtn:document.querySelector("[data-close-header-modal]"),backdrop:document.querySelector("[data-header-backdrop]")};function o(){e.backdrop.classList.toggle("header__is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o),e.backdrop.addEventListener("click",(function(){console.log("Це клік в бекдроп")}))})();
+//# sourceMappingURL=index.8e299088.js.map
