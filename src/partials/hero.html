@@ -1,0 +1,101 @@
+<section class="hero">
+  <div class="container">
+    <div class="hero__box">
+      <div class="hero__box-element">
+        <h2 class="hero__title">Enjoy Your Favorite Food From Anywhere</h2>
+        <p class="hero__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+        </p>
+        <button class="hero__button" type="button" data-open-hero-modal>
+          Order Now
+        </button>
+      </div>
+      <div class="hero__box-element">
+        <picture>
+          <source
+            srcset="
+              ./images/hero/hero-desctop@1x.webp 1x,
+              ./images/hero/hero-desctop@2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ./images/hero/hero-tablet@1x.webp 1x,
+              ./images/hero/hero-tablet@2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <img
+            src="./images/hero/hero-desctop@1x.webp"
+            alt=""
+            class="hero__img"
+          />
+        </picture>
+        <!-- <div class="slider-container hero__div-img">
+          <div>
+            <button class="left-slider slider-btn swiper-button-prev"></button>
+            <button class="right-slider slider-btn swiper-button-next"></button>
+          </div>
+          <div class="swiper-container">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide"></li>
+              <li class="swiper-slide"></li>
+              <li class="swiper-slide"></li>
+            </ul>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <div class="hero__backdrop hero__is-hidden" data-hero-backdrop>
+      <form class="hero-modal">
+        <button
+          type="button"
+          class="hero-modal__close-button"
+          data-close-hero-modal
+        >
+          <svg class="hero-modal__svg">
+            <use href="./images/hero/hero-symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h3 class="hero-modal__title">Order Form</h3>
+        <ul class="hero-modal__list">
+          <li class="hero-modal__item">
+            <p class="hero-modal__description">Name</p>
+            <input
+              type="text"
+              id="name"
+              placeholder="Your name"
+              class="hero-modal__input"
+              required
+            />
+          </li>
+          <li class="hero-modal__item">
+            <p class="hero-modal__description">Phone number</p>
+            <input
+              type="text"
+              id="Phone"
+              placeholder="+38(0_ _) _ _ _   _ _   _ _"
+              class="hero-modal__input"
+              required
+            />
+          </li>
+          <li class="hero-modal__item">
+            <p class="hero-modal__description">E-mail</p>
+            <input
+              type="text"
+              id="e-mail"
+              placeholder="example@gmail.com"
+              class="hero-modal__input"
+              required
+            />
+          </li>
+        </ul>
+        <button type="button" class="hero-modal__send-button">Send</button>
+      </form>
+    </div>
+  </div>
+</section>

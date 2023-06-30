@@ -22,23 +22,49 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
   margin-top: 40px;
   &__item {
     margin-left: 32px;
     margin-bottom: 32px;
   }
-  &__img {
-    width: 315px;
-    height: 315px;
-    background: local;
-    border: 16px solid #FFE550;
-    border-radius: 197.5px;
-    padding: 20px 21px;
-    transition: border 250ms cubic-bezier(0.39, 0.575, 0.565, 1) 25ms;
+  &__image {
+    width: 280px;
+    border: 11px solid #FFE550;
+    border-radius: 139.658px;
+    padding: 20px;
+    transition: border 250ms cubic-bezier(0.39, 0.575, 0.565, 1) 50ms;
     cursor: pointer;
-    &:hover {
-      border: 14px solid #BBF330;
+    @media screen and (min-width: 1280px) {
+      border: 16px solid #FFE550;
+      border-radius: 197.5px;
+      width: 395px;
+      height: 397px;
+      &:hover {
+        border: 16px solid #BBF330;
+      }
+    }
+    @media screen and (min-width: 768px) {
+      border: 14px solid #FFE550;
       border-radius: 167.59px;
+      width: 336px;
+      height: 338px;
+      &:hover {
+        border: 14px solid #BBF330;
+      }
+    }
+    @media screen and (max-width: 767px) {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      &:nth-child(3) {
+        display: none;
+      }
+      &:hover {
+        border: 11px solid #BBF330;
+      }
     }
   }
 }
