@@ -95,10 +95,62 @@
           </li>
         </ul>
         <div class="offerings__min-box">
-          <button class="offerings__button">Order Now</button>
+          <button class="offerings__button" data-open-offerings-modal>
+            Order Now
+          </button>
           <p class="offerings__more">Read more ></p>
         </div>
       </div>
+    </div>
+    <div
+      class="offerings__backdrop offerings__is-hidden"
+      data-offerings-backdrop
+    >
+      <form class="hero-modal">
+        <button
+          type="button"
+          class="offerings-modal__close-button"
+          data-close-offerings-modal
+        >
+          <svg class="offerings-modal__svg">
+            <use href="./images/hero/hero-symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h3 class="offerings-modal__title">Order Form</h3>
+        <ul class="offerings-modal__list">
+          <li class="offerings-modal__item">
+            <p class="offerings-modal__description">Name</p>
+            <input
+              type="text"
+              id="name"
+              placeholder="Your name"
+              class="offerings-modal__input"
+              required
+            />
+          </li>
+          <li class="offerings-modal__item">
+            <p class="offerings-modal__description">Phone number</p>
+            <input
+              type="text"
+              id="Phone"
+              placeholder="+38(0_ _) _ _ _   _ _   _ _"
+              class="offerings-modal__input"
+              required
+            />
+          </li>
+          <li class="offerings-modal__item">
+            <p class="offerings-modal__description">E-mail</p>
+            <input
+              type="text"
+              id="e-mail"
+              placeholder="example@gmail.com"
+              class="offerings-modal__input"
+              required
+            />
+          </li>
+        </ul>
+        <button type="button" class="offerings-modal__send-button">Send</button>
+      </form>
     </div>
   </div>
 </section>
