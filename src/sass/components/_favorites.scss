@@ -1,6 +1,12 @@
 .favorites {
   background-color: #FEFEFE;
   display: flex;
+  padding-bottom: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
   &__title {
     color: #2C2C2C;
     font-weight: 700;
