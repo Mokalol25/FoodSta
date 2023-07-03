@@ -1,2 +1,0 @@
-!function(){var e={openModalBtn:document.querySelector("[data-open-header-mobile-modal]"),closeModalBtn:document.querySelector("[data-close-header-mobile-modal]"),backdrop:document.querySelector("[data-header-mobile-backdrop]")};function o(){e.backdrop.classList.toggle("header-mobile__is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o),e.backdrop.addEventListener("click",(function(){console.log("Це клік в бекдроп")}))}();
-//# sourceMappingURL=index.5e8e0162.js.map
