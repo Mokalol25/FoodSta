@@ -2,8 +2,8 @@
   background-image: url(../images/offerings/offerings-background-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  margin-bottom: 100px;
+  background-position: top;
+  margin-top: 50px;
   @media screen and (min-width: 768px) {
     // width: 768px;
     height: 1140px;
@@ -140,6 +140,7 @@
   font-size: 13px;
   line-height: 1.5;
   color: #2c2c2c;
+  cursor: pointer;
   @media screen and (min-width: 768px) {
   }
   @media screen and (min-width: 1280px) {
@@ -151,7 +152,7 @@
   width: 201.6px;
   height: 255.55px;
   z-index: 1;
-  margin-left: 27px;
+  margin-left: 28px;
   margin-top: -40px;
   @media screen and (min-width: 768px) {
     width: 257.04px;
@@ -314,6 +315,7 @@
   border: none;
   margin-left: 272px;
   margin-top: 12px;
+  z-index: 10;
   cursor: pointer;
   @media screen and (min-width: 768px) {
     margin-left: 414px;
