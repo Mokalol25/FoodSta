@@ -49,7 +49,7 @@
 52C:\FoodSta\node_modules\posthtml-render\package.json133326105010521871 0
 36C:\FoodSta\node_modules\yaml\pair.js133326105015977289 0
 46C:\FoodSta\node_modules\@parcel\fs\src\find.js133326105011060429 0
-40C:\FoodSta\src\js\header-mobile-modal.js133326112391909618 0
+40C:\FoodSta\src\js\header-mobile-modal.js133326196595394731 0
 82C:\FoodSta\node_modules\caniuse-lite\data\features\justify-content-space-evenly.js133326105029351551 0
 62C:\FoodSta\node_modules\@parcel\transformer-babel\lib\utils.js133326105016356276 0
 71C:\FoodSta\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts133326105018889509 0
@@ -70,7 +70,7 @@
 58C:\FoodSta\node_modules\xxhash-wasm\esm\xxhash-wasm.js.map133326105013214683 0
 61C:\FoodSta\node_modules\dom-serializer\lib\esm\index.d.ts.map133326105014750569 0
 52C:\FoodSta\src\images\subscribe\desktop-banan-1x.png133326094570468966 0
-37C:\FoodSta\dist\index.78e1eeb2.js.map133326144514459642 0
+37C:\FoodSta\dist\index.78e1eeb2.js.map133328436567846207 0
 58C:\FoodSta\node_modules\htmlnano\lib\modules\minifyUrls.js133326105016725311 0
 53C:\FoodSta\node_modules\posthtml-parser\dist\index.js133326105010521871 0
 70C:\FoodSta\node_modules\caniuse-lite\data\features\intl-pluralrules.js133326105029221897 0
@@ -99,7 +99,7 @@
 41C:\FoodSta\node_modules\@msgpackr-extract133326105044391362 1
 50C:\FoodSta\node_modules\svgo\plugins\reusePaths.js133326105021442682 0
 41C:\FoodSta\node_modules\nan\nan_private.h133326105015957344 0
-15C:\FoodSta\dist133326150624539818 1
+15C:\FoodSta\dist133328437340368595 1
 37C:\FoodSta\node_modules\utility-types133326105015578366 1
 58C:\FoodSta\node_modules\svgo\plugins\convertShapeToPath.js133326105016755208 0
 46C:\FoodSta\node_modules\parent-module\index.js133326105009883573 0
@@ -117,7 +117,7 @@
 54C:\FoodSta\node_modules\@parcel\node-resolver-core\lib133326105021323011 1
 20C:\FoodSta\README.md133326094569167182 0
 61C:\FoodSta\node_modules\css-tree\lib\syntax\pseudo\matches.js133326105022031111 0
-43C:\FoodSta\src\sass\components\_header.scss133326150748069728 0
+43C:\FoodSta\src\sass\components\_header.scss133327001082052617 0
 130C:\FoodSta\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-up\foo\bar\package.json133326105022659430 0
 30C:\FoodSta\node_modules\@lezer133326104999291882 1
 70C:\FoodSta\node_modules\@swc\helpers\lib\_class_private_method_init.js133326105018011850 0
@@ -139,7 +139,7 @@
 40C:\FoodSta\node_modules\terser\lib\utils133326105019039108 1
 57C:\FoodSta\node_modules\postcss-value-parser\package.json133326105013513879 0
 55C:\FoodSta\node_modules\caniuse-lite\data\regions\BZ.js133326105022051059 0
-33C:\FoodSta\src\partials\hero.html133326094570558718 0
+33C:\FoodSta\src\partials\hero.html133328437184275721 0
 73C:\FoodSta\node_modules\caniuse-lite\data\features\css-scroll-behavior.js133326105025840933 0
 55C:\FoodSta\node_modules\source-map-js\lib\base64-vlq.js133326105010521871 0
 60C:\FoodSta\node_modules\lmdb\dependencies\lz4\lib\lz4frame.c133326105018680064 0
@@ -162,7 +162,7 @@
 41C:\FoodSta\node_modules\svgo\lib\style.js133326105021612234 0
 21C:\FoodSta\src\images133326094570508865 1
 66C:\FoodSta\node_modules\caniuse-lite\data\features\script-async.js133326105031336249 0
-41C:\FoodSta\src\sass\components\_hero.scss133326094570598609 0
+41C:\FoodSta\src\sass\components\_hero.scss133326993286217693 0
 46C:\FoodSta\node_modules\picomatch\lib\parse.js133326105011608963 0
 64C:\FoodSta\node_modules\css-select\lib\pseudo-selectors\index.js133326105014341659 0
 51C:\FoodSta\node_modules\css-tree\lib\lexer\trace.js133326105022828979 0
@@ -183,7 +183,7 @@
 52C:\FoodSta\node_modules\posthtml-parser\package.json133326105012037816 0
 67C:\FoodSta\node_modules\fast-glob\out\providers\matchers\matcher.js133326105015638192 0
 41C:\FoodSta\node_modules\yaml\types\set.js133326105019188707 0
-25C:\FoodSta\src\index.html133326150623103651 0
+25C:\FoodSta\src\index.html133326999328174480 0
 79C:\FoodSta\node_modules\react-refresh\cjs\react-refresh-babel.production.min.js133326105011569066 0
 61C:\FoodSta\node_modules\terser\node_modules\commander\typings133326105013124909 1
 37C:\FoodSta\src\images\symbol-defs.svg133326094570508865 0
@@ -266,7 +266,7 @@
 54C:\FoodSta\node_modules\csso\lib\clean\TypeSelector.js133326105019497881 0
 54C:\FoodSta\node_modules\posthtml-expressions\readme.md133326105014860275 0
 55C:\FoodSta\node_modules\caniuse-lite\data\regions\MZ.js133326105030189310 0
-46C:\FoodSta\src\sass\components\_offerings.scss133326149863184300 0
+46C:\FoodSta\src\sass\components\_offerings.scss133326998536862381 0
 64C:\FoodSta\node_modules\dom-serializer\lib\foreignNames.d.ts.map133326105014481288 0
 83C:\FoodSta\node_modules\parcel-reporter-clean-dist\test\fixtures\files\embed\embed2133326105020225936 1
 46C:\FoodSta\src\sass\components\_subscribe.scss133326094570608586 0
@@ -295,8 +295,8 @@
 64C:\FoodSta\node_modules\css-tree\lib\syntax\pseudo\common\nth.js133326105022280455 0
 39C:\FoodSta\node_modules\reusify\LICENSE133326105010900858 0
 50C:\FoodSta\node_modules\htmlnano\docs\package.json133326105019607589 0
-35C:\FoodSta\src\partials\header.html133326150689396515 0
-38C:\FoodSta\src\partials\offerings.html133326094570558718 0
+35C:\FoodSta\src\partials\header.html133326995609080487 0
+38C:\FoodSta\src\partials\offerings.html133328437339062087 0
 42C:\FoodSta\node_modules\boolbase\README.md133326105009923461 0
 38C:\FoodSta\src\partials\subscribe.html133326094570568704 0
 55C:\FoodSta\node_modules\sass\types\legacy\importer.d.ts133326105021751860 0
@@ -1679,7 +1679,7 @@
 38C:\FoodSta\node_modules\sass\README.md133326105021223273 0
 93C:\FoodSta\node_modules\parcel-reporter-clean-dist\test\fixtures\packageV4\files\embed\embed2133326105021233253 1
 49C:\FoodSta\node_modules\sass\sass.default.dart.js133326105021103589 0
-37C:\FoodSta\dist\index.2d7d1262.js.map133326144514190360 0
+37C:\FoodSta\dist\index.2d7d1262.js.map133328436567726524 0
 66C:\FoodSta\node_modules\@parcel\core\src\requests\TargetRequest.js133326105023048396 0
 40C:\FoodSta\node_modules\lmdb\src\env.cpp133326105022190690 0
 47C:\FoodSta\node_modules\sass\types\compile.d.ts133326105021452658 0
@@ -2274,7 +2274,7 @@
 45C:\FoodSta\node_modules\@parcel\types\LICENSE133326105009544474 0
 53C:\FoodSta\node_modules\mdn-data\api\inheritance.json133326105015149498 0
 54C:\FoodSta\node_modules\@parcel\utils\src\sourcemap.js133326105021382846 0
-37C:\FoodSta\dist\index.8486cffc.js.map133326150624400192 0
+37C:\FoodSta\dist\index.8486cffc.js.map133328436567726524 0
 62C:\FoodSta\node_modules\css-tree\lib\syntax\node\StyleSheet.js133326105022699328 0
 67C:\FoodSta\node_modules\entities\lib\generated\decode-data-xml.d.ts133326105017353611 0
 47C:\FoodSta\node_modules\lmdb-win32-x64\index.js133326105009005913 0
@@ -2773,7 +2773,7 @@
 60C:\FoodSta\node_modules\fast-glob\out\managers\patterns.d.ts133326105019487908 0
 58C:\FoodSta\node_modules\fast-glob\out\managers\patterns.js133326105016356276 0
 59C:\FoodSta\node_modules\caniuse-lite\data\features\webxr.js133326105035156042 0
-34C:\FoodSta\dist\index.b07a87f3.css133326149168270343 0
+34C:\FoodSta\dist\index.b07a87f3.css133328436567666678 0
 55C:\FoodSta\node_modules\caniuse-lite\data\regions\AO.js133326105017912116 0
 39C:\FoodSta\node_modules\acorn\README.md133326105014760544 0
 52C:\FoodSta\node_modules\@parcel\cache\lib\FSCache.js133326105010093012 0
@@ -3068,7 +3068,7 @@
 54C:\FoodSta\node_modules\css-select\lib\attributes.d.ts133326105018021824 0
 44C:\FoodSta\node_modules\css-select\README.md133326105017762519 0
 55C:\FoodSta\node_modules\caniuse-lite\data\regions\BR.js133326105021811696 0
-26C:\FoodSta\dist\index.html133326150624460036 0
+26C:\FoodSta\dist\index.html133328437340358904 0
 69C:\FoodSta\node_modules\@jridgewell\gen-mapping\dist\types\types.d.ts133326105014860275 0
 49C:\FoodSta\node_modules\css-select\lib\compile.js133326105012117602 0
 53C:\FoodSta\node_modules\css-select\lib\index.d.ts.map133326105016535794 0
@@ -4833,14 +4833,14 @@
 45C:\FoodSta\dist\hero-desctop@2x.bfa8a59b.webp133326144512893816 0
 45C:\FoodSta\dist\hero-symbol-defs.cfa0700f.svg133326144514409772 0
 44C:\FoodSta\dist\hero-tablet@1x.dfd54b80.webp133326144512863901 0
-33C:\FoodSta\dist\index.2d7d1262.js133326144514140489 0
-33C:\FoodSta\dist\index.78e1eeb2.js133326144514449666 0
-33C:\FoodSta\dist\index.8486cffc.js133326150624390218 0
+33C:\FoodSta\dist\index.2d7d1262.js133328436567646735 0
+33C:\FoodSta\dist\index.78e1eeb2.js133328436567836222 0
+33C:\FoodSta\dist\index.8486cffc.js133328436567696603 0
 51C:\FoodSta\dist\mobile-3-favorites-2x.19140642.webp133326144512853929 0
 37C:\FoodSta\dist\index.975ef6c8.js.map133326144514220283 0
-38C:\FoodSta\dist\index.b07a87f3.css.map133326149168280312 0
-33C:\FoodSta\dist\index.bc21f1c9.js133326144514190360 0
-37C:\FoodSta\dist\index.bc21f1c9.js.map133326144514240221 0
+38C:\FoodSta\dist\index.b07a87f3.css.map133328436567726524 0
+33C:\FoodSta\dist\index.bc21f1c9.js133326963130648456 0
+37C:\FoodSta\dist\index.bc21f1c9.js.map133326963130658441 0
 33C:\FoodSta\dist\logo.c493797d.png133326144514170404 0
 51C:\FoodSta\dist\mobile-1-favorites-1x.e0b63d1a.webp133326144512853929 0
 51C:\FoodSta\dist\mobile-1-favorites-2x.614e1861.webp133326144512853929 0
