@@ -13,6 +13,27 @@
         </button>
       </div>
       <div class="hero__box-element">
+        <picture>
+          <source
+            srcset="
+              ./images/hero/1-img-desctop-hero@1x.webp 1x,
+              ./images/hero/1-img-desctop-hero@2x.webp 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="
+              ./images/hero/1-img-tablet-hero@1x.webp 1x,
+              ./images/hero/1-img-tablet-hero@2x.webp 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <img
+            src="./images/hero/1-img-desctop-hero@1x.webp"
+            alt=""
+            class="hero__img"
+          />
+        </picture>
         <!-- <div class="slider-container hero__div-img swiper mySwiper">
           <div>
             <button class="swiper-button-prev"></button>
@@ -92,7 +113,7 @@
             </ul>
           </div>
         </div> -->
-        <div class="swiper mySwiper">
+        <!-- <div class="swiper mySwiper">
           <ul class="swiper-wrapper">
             <li class="swiper-slide">
               <picture>
@@ -147,7 +168,7 @@
                     ./images/hero/3-img-desctop-hero@1x.webp 1x,
                     ./images/hero/3-img-desctop-hero@2x.webp 2x
                   "
-                  media="(min-width: 1280px)"
+                  media="(min-width: 120px)"
                 />
                 <source
                   srcset="
@@ -164,7 +185,7 @@
               </picture>
             </li>
           </ul>
-          <!-- <div class="b-p">
+          <div class="b-p">
             <svg class="swiper-svg" width="40px" height="48px">
               <use href="./images/hero/hero-symbol-defs.svg#left-arrow"></use>
             </svg>
@@ -173,7 +194,7 @@
             <svg class="sviper-svg" width="40px" height="48px">
               <use href="./images/hero/hero-symbol-defs.svg#right-arrow"></use>
             </svg>
-          </div> -->
+          </div>
           <div class="swiper-button-next left-slider">
             <svg class="swiper-svg" width="40px" height="48px">
               <use href="./images/hero/hero-symbol-defs.svg#left-arrow"></use>
@@ -186,7 +207,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="hero__backdrop hero__is-hidden" data-hero-backdrop>
       <form class="hero-modal">
